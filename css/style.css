@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+}
+
+
+/* Header */
+
+header {
+    position: fixed;
+    top: 0;
+    min-height: 170px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+    background-color: #fff;
+}
+
+picture.coffee__logo {
+    max-width: 150px;
+}
+
+img {
+    width: 100%;
+}
+
+ul.nav-bar {
+    display: flex;
+    gap: 5rem;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* Main features*/
+
+.container {
+    max-width: 1200px;
+    min-height: 200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 2.5rem;
+    overflow: hidden;
+}
+
+.features__section {
+    display: flex;
+    align-items: center;
+    gap: 7rem;
+    padding: 2.5rem;
+}
+
+.feature__icon {
+    font-size: 4rem;
+    /* tamaño del icono */
+}
+
+.feature__icon.icon__chemist {
+    color: rgb(63, 62, 0);
+    /* color del icono */
+}
+
+.feature__icon.icon__environment {
+    color: rgb(140, 224, 5);
+    /* color del icono */
+    font-size: 5rem;
+    /* tamaño del icono */
+}
+
+.feature__icon.icon__heart {
+    color: crimson;
+    /* color del icono */
+}
+
+.feature__icon.icon__contributes {
+    color: rgb(192, 143, 8);
+    /* color del icono */
+    font-size: 3.5rem;
+    /* tamaño del icono */
+}
+
+.feature__title {
+    font-size: 2rem;
+    font-weight: 500;
+    color: black;
+}
+
+
+/* Main how it works */
+
+.How-It-Works {
+    display: flex;
+    justify-content: center;
+    padding: 5rem 0;
+}
+
+
+/* Main pricing */
+
+.pricing {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 4rem;
+}
+
+.card__pricing {
+    max-width: 330px;
+    min-height: 456px;
+    background-color: #e5e5f7;
+    padding: 4rem;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.card__pricing.best {
+    max-width: 370px;
+    background-color: #FF7143;
+    padding: 2.5rem 4rem;
+}
+
+.pricing__title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #1d293f;
+    padding: 0 0 2rem 0;
+}
+
+.pricing__description {
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: #696871;
+    padding: 0 0 2rem 0;
+}
+
+.pricing__price {
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: #1d293f;
+    padding: 0 0 2rem 0;
+}
+
+.pricing__button {
+    background-color: white;
+    color: #5454d4;
+    border: none;
+    padding: 1rem 4rem;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+.pricing__button:hover {
+    background-color: #5454d4;
+    color: white;
+    cursor: pointer;
+}
+
+.pricing__title.Kopi__title {
+    color: #fff;
+}
+
+.pricing__description.Kopi__description {
+    color: #fff;
+}
+
+.pricing__price.kopi__price {
+    color: #fff;
+}
+
+.pricing__button.kopi__button {
+    background-color: #9F3919;
+    color: #fff;
+}
+
+.pricing__button.kopi__button:hover {
+    background-color: #fff;
+    color: #9F3919;
+}
+
+/* footer */
+
+footer {
+    background-color: #1d293f;
+    color: #fff;
+    text-align: center;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3rem;
+    margin-top: 5rem;
+    font-weight: 400;
+}
+
+.footer__nav {
+    display: flex;
+    gap: 3rem;
+}
+
+.newsletter__title {
+    display: block;
+    font-size: 2.4rem;
+    font-weight: 500;
+    padding: 0 0 .5rem 0;
+}
+
+.newsletter__input {
+    width: 250px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    padding: 0 1rem;
+    font-family: inherit;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.newsletter__input:focus {
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 .4rem rgba(0, 123, 255, 0.25);
+}
+
+.newsletter__submit {
+    background-color: #2091f9;
+    color: inherit;
+    border: none;
+    height: 40px;
+    margin: 0 0 0 1rem;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+.newsletter__submit:hover {
+    background-color: #fff;
+    color: #2091f9;
+    cursor: pointer;
+}
+
+.copy__icons {
+    font-size: 2.5rem;
+    padding: 0 .5rem;
+}
+
+.copy__icons:hover {
+    color: #5454d4;
+}
+
+.copy__text {
+    font-size: 1.6rem;
+    font-weight: 400;
+    padding: .9rem 0 3rem 0;
+}
+
+@media(max-width: 900px) {
+    .footer__container {
+        flex-direction: column;
+    }
+
+    .footer__nav {
+        padding-bottom: 1rem;
+    }
+}
+
+@media(max-width: 600px) {
+    header {
+        flex-direction: column;
+    }
+    
+    .container{
+        min-height: 160px;
+    }
+
+    .nav-bar {
+        padding-top: 1rem;
+    }
+
+    .features__section {
+        flex-direction: column;
+        text-align: center;
+        gap: 1.5rem;
+        padding: 2rem;
+    }
+
+    .copy__text {
+        padding: 0 2rem;
+    }
+}
+
+@media(max-width: 460px) {
+    ul.nav-bar {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .container {
+        padding: 0;
+        min-height: 260px;
+    }
+
+    .footer__nav {
+        flex-direction: column;
+        gap: .9rem;
+    }
+
+    .footer__input {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 1rem;
+    }
+}

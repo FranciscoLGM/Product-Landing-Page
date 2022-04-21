@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Landing Page</title>
+</head>
+
+<body>
+    <header id="header">
+
+        <picture class="coffee__logo">
+            <img id="header-img" src="./images/logo.JPG" alt="Logotipo de la empresa">
+            <!-- "https://static.vecteezy.com/system/resources/previews/005/580/404/original/organic-coffee-logo-design-vector.jpg -->
+        </picture>
+
+        <nav id="nav-bar">
+            <ul class="nav-bar">
+                <li class="nav-link"><a href="#features">Características</a></li>
+                <li class="nav-link"><a href="#How-It-Works">Acerca de</a></li>
+                <li class="nav-link"><a href="#pricing">Precios</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container"></div>
+
+    <main>
+        <div class="container">
+
+            <section id="features">
+
+                <article class="features__section">
+                    <div class="feature__icon icon__chemist">
+                        <i class="fas fa-exclamation-triangle"></i>
+                    </div>
+                    <div>
+                        <h2 class="feature__title">No contiene pesticidas o fertilizantes químicos</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis assumenda voluptatum
+                            illo
+                            dignissimos reiciendis earum tempore facere eaque, possimus ut.</p>
+                    </div>
+                </article>
+
+                <article class="features__section">
+                    <div class="feature__icon icon__environment">
+                        <i class="fab fa-envira"></i>
+                    </div>
+                    <div>
+                        <h2 class="feature__title">Contribuye a la preservación del medio ambiente</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores accusamus maiores
+                            laboriosam
+                            hic, voluptatibus quasi quam commodi explicabo assumenda impedit!</p>
+                    </div>
+                </article>
+
+                <article class="features__section">
+                    <div class="feature__icon icon__heart">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <div>
+                        <h2 class="feature__title">Aporta antioxidantes y vitaminas</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic nihil optio vitae pariatur
+                            similique rerum!</p>
+                    </div>
+                </article>
+
+                <article class="features__section">
+                    <div class="feature__icon icon__contributes">
+                        <i class="fa-solid fa-handshake-angle"></i>
+                    </div>
+                    <div>
+                        <h2 class="feature__title">Su consumo apoya a los pequeños productores de café y no a las
+                            empresas
+                            tras nacionales.</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt velit ducimus, rerum,
+                            similique quam nisi fugit a nesciunt nulla doloribus dicta necessitatibus quasi est
+                            provident.</p>
+                    </div>
+                </article>
+
+            </section>
+
+            <section id="How-It-Works">
+                <article class="How-It-Works">
+                    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/uGJtAa3B1WI"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                </article>
+            </section>
+
+            <section class="pricing" id="pricing">
+
+                <article class="card__pricing">
+                    <div>
+                        <h2 class="pricing__title">Café Robusta</h2>
+                        <p class="pricing__description">La cafeína reina del café, los granos Robusta, contienen
+                            aproximadamente el doble del estimulante que los granos Arábica . Esto le da al café un
+                            sabor fuerte y ligeramente amargo.</p>
+                        <p class="pricing__price">$ 10.000</p>
+                        <button type="submit" class="pricing__button">Comprar</button>
+                    </div>
+                </article>
+
+                <article class="card__pricing best">
+                    <div>
+                        <h2 class="pricing__title Kopi__title">Café Kopi Luwak</h2>
+                        <p class="pricing__description Kopi__description">Para una experiencia gourmet poco común,
+                            pruebe los premiados
+                            granos extraídos del estiércol de civeta indonesia. Esta criatura similar a una
+                            mangosta, se
+                            da festines con los frutos del café antes de ir al baño. El sistema digestivo procesa
+                            los
+                            frutos otorgándole así, el sabor característico a los granos.</p>
+                        <p class="pricing__price kopi__price">$ 30.000</p>
+                        <button type="submit" class="pricing__button kopi__button">Comprar</button>
+                    </div>
+                </article>
+
+                <article class="card__pricing">
+                    <div>
+                        <h2 class="pricing__title">Café Arábica</h2>
+                        <p class="pricing__description">El champán del café, los granos Arábica tienen una
+                            espectacular
+                            riqueza aromática, lo que produce un sabor suave y profundo al mismo tiempo.</p>
+                        <p class="pricing__price">$ 20.000</p>
+                        <button type="submit" class="pricing__button">Comprar</button>
+                    </div>
+                </article>
+
+            </section>
+
+        </div>
+    </main>
+
+    <footer>
+
+        <section class="footer__container">
+
+            <article>
+                <ul class="footer__nav">
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#features">Características</a></li>
+                    <li><a href="#How-It-Works">Acerca de</a></li>
+                    <li><a href="#pricing">Precios</a></li>
+                </ul>
+
+            </article>
+
+            <article>
+                <form id="form" class="footer__input" action="https://www.freecodecamp.com/email-submit">
+                    <label class="newsletter__title" for="email">Suscribete a nuestra Newsletter</label>
+                    <input id="email" class="newsletter__input" type="email" name="" placeholder="Introduce tu Email:">
+                    <input id="submit" class="newsletter__submit" type="submit" value="Registrate">
+                </form>
+            </article>
+
+        </section>
+
+        <section class="footer__copy">
+            <div>
+                <a class="copy__icons" href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a class="copy__icons" href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a class="copy__icons" href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a class="copy__icons" href="#"><i class="fa-brands fa-telegram"></i></a>
+            </div>
+            <p class="copy__text">Hecho con 💖 - Copyright © 2022 - Todos los derechos reservados</p>
+
+        </section>
+
+    </footer>
+
+    <script src="https://kit.fontawesome.com/7d2f239fca.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
